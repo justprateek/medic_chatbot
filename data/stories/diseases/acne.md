@@ -19,7 +19,6 @@
 * get_no_0_7
   - utter_have_a_good_day_0_9
   - action_save_conversation
-  - utter_saved_details
 
 ## acne_2
 * greet_0_1
@@ -42,7 +41,6 @@
 * get_no_0_7
   - utter_have_a_good_day_0_9
   - action_save_conversation
-  - utter_saved_details
 
 
 ## acne_3
@@ -66,7 +64,6 @@
 * get_no_0_7
   - utter_have_a_good_day_0_9
   - action_save_conversation
-  - utter_saved_details
 
 ## acne_4
 * greet_0_1
@@ -89,7 +86,6 @@
 * get_no_0_7
   - utter_have_a_good_day_0_9
   - action_save_conversation
-  - utter_saved_details
 
 
 ## acne_5
@@ -108,7 +104,6 @@
 * get_no_0_7
   - utter_have_a_good_day_0_9
   - action_save_conversation
-  - utter_saved_details
 
 
 ## acne_1_1
@@ -127,7 +122,6 @@
 * get_no_0_7
   - utter_have_a_good_day_0_9
   - action_save_conversation
-  - utter_saved_details
 
 ## acne_2_1
 * problem_acne
@@ -145,7 +139,6 @@
 * get_no_0_7
   - utter_have_a_good_day_0_9
   - action_save_conversation
-  - utter_saved_details
 
 ## acne_3_1
 * problem_acne
@@ -163,7 +156,6 @@
 * get_no_0_7
   - utter_have_a_good_day_0_9
   - action_save_conversation
-  - utter_saved_details
 
 ## acne_4_1
 * problem_acne
@@ -181,7 +173,6 @@
 * get_no_0_7
   - utter_have_a_good_day_0_9
   - action_save_conversation
-  - utter_saved_details
 
 
 
@@ -196,4 +187,3 @@
 * get_no_0_7
   - utter_have_a_good_day_0_9
   - action_save_conversation
-  - utter_saved_details
