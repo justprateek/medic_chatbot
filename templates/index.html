@@ -1,0 +1,61 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="jumbotron text-center font" class="blue_div">
+
+<h4 class="ml11">
+  <span class="text-wrapper">
+    <span class="line line1"></span>
+    <div class="letters">
+    		Hi {{ session['username'] }}, Welcome to HealFavor. 	
+    </div>
+  </span>
+</h4>
+
+ </div>
+
+
+
+ <center>
+	<!-- <h1>Welcome to HealFavor</h1> -->
+	<img id="logo" src="{{ url_for('static', filename = 'imgs/logo.png')}}">
+	<br><br>
+	<div id="about" class="blue_div">
+		The Prototype Model of the Contextual Agent-Based Medical AI Bot
+	</div> 
+
+
+<div id="bottom" class="blue_div">
+
+	<div id="nits">
+		<img id="nits" src="{{ url_for('static', filename = 'imgs/nits.png')}}">
+	</div>
+	<div id="ack">
+		National Institute of Technology, Silchar
+		<br>
+		&copy; Copyright Centre for Natural Language Processing
+		<br>
+		<div id="power">
+			Powered by RASA
+		</div>
+		
+	</div>
+
+	
+</div>
+
+	
+
+
+</center>
+
+
+    
+
+
+
+
+{% endblock %}
+
+

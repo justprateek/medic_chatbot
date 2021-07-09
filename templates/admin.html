@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+
+<center>
+	<img id="logo" src="{{ url_for('static', filename = 'imgs/logo.png')}}">
+	<br><br>
+	<div id="about" class="blue_div">
+		Chatbot Analytics
+	</div> 
+
+    <div>
+		<h2>Number of Users :{{ session['total'] }}</h2>
+        <h2>Total Number of chats :{{ session['total_chats'] }}</h2>
+		<h2>Number of texts :{{ session['text_count'] }}</h2>
+    </div>
+
+</center>
+
+
+
+
+<div id="webchat"/>
+<script src="{{ url_for('static', filename = 'webchat-latest.js')}}">
+// Or you can replace latest with a specific version
+</script>
+
+{% endblock %}
+
+

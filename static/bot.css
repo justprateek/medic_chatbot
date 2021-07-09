@@ -1,0 +1,55 @@
+
+/*body {
+ background-image: url("../imgs/doc_bag_img.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center; 
+}*/
+
+#logo{
+  height: 250px;
+  width: 400px;
+}
+
+
+
+#nits{
+  height: 10vw;
+  width: 10vw;
+  margin-left: -3.5vw;
+}
+
+
+#about{
+	font-family: 'Dancing Script', cursive;
+	font-size: 25px;
+}
+
+
+
+#bottom{
+	position: fixed;
+    bottom: 0;
+    text-align: center;
+    left: 50%;
+    
+
+}
+
+#ack{
+	margin-left: -15vw;
+	width: 30vw;
+}
+
+#power{
+	font-size: 12px;
+}
+#chat_texts {
+  white-space: pre-line;
+  text-align: left;
+}
+
+
+
+
+

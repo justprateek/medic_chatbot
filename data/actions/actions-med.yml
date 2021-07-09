@@ -1,0 +1,94 @@
+actions:
+- utter_any_other_question_0_8
+- utter_ask_booking_or_question_0_2
+- utter_ask_date_and_month_0_5
+- utter_ask_doctor_name_0_4
+- utter_ask_doctor_speciality_0_3
+- utter_ask_problem_again_2_1
+- utter_ask_time_0_6
+- utter_continue_with_question_0_10
+- utter_cannot_understand_0_11
+- utter_final_booking_0_7
+- utter_have_a_good_day_0_9
+- utter_welcome_0_1
+- utter_high_temperature_1_1
+- utter_sweating_1_2
+- utter_cold_1_3
+- utter_headache_1_4_1
+- utter_headache_1_4_2
+- utter_headache_1_4_3
+- utter_sinus_1_5
+- utter_stomach_1_6
+- utter_vomit_1_7
+- utter_asthma_1_8
+- utter_allergy_1_9
+- utter_skin_1_10
+- utter_diabetes_1_11
+- utter_diarrhea_1_12
+- utter_hyper_tension_1_13
+- utter_joint_pain_1_14
+- utter_diet_1_15
+- utter_insomnia_1_16
+- utter_lowbloodpressure_1_a
+- utter_lowbloodpressure_1_b
+- utter_lowbloodpressure_advice
+- utter_highbloodpressure_1_a
+- utter_highbloodpressure_1_b
+- utter_highbloodpressure_advice
+- utter_ringworm_1_a
+- utter_ringworm_1_b
+- utter_ringworm_advice
+- utter_toothache_1_a
+- utter_toothache_1_b
+- utter_toothache_advice
+- utter_migraine_1_a
+- utter_migraine_1_b
+- utter_migraine_advice
+- utter_conjunctivitis_1_a
+- utter_conjunctivitis_1_b
+- utter_conjunctivitis_advice
+- utter_gerd_1_a
+- utter_gerd_1_b
+- utter_gerd_advice
+- utter_diabetes_1_a
+- utter_diabetes_1_b
+- utter_diabetes_advice
+- utter_allergy_rhinitis_1_a
+- utter_allergy_rhinitis_1_b
+- utter_allergy_rhinitis_advice
+- utter_fungal_infection_1_a
+- utter_fungal_infection_1_b
+- utter_fungal_infection_advice
+- utter_chickenpox_1_a
+- utter_chickenpox_1_b
+- utter_chickenpox_advice
+- utter_typhoid_1_a
+- utter_typhoid_1_b
+- utter_typhoid_advice
+- utter_psoriasis_1_a
+- utter_psoriasis_1_b
+- utter_psoriasis_advice
+- utter_obesity_1_a
+- utter_obesity_1_b
+- utter_obesity_advice
+- utter_insomnia_1_a
+- utter_insomnia_1_b
+- utter_insomnia_advice
+- utter_psychosis_1_a
+- utter_psychosis_1_b
+- utter_psychosis_advice
+- utter_depression_1_a
+- utter_depression_1_b
+- utter_depression_advice
+- utter_pneumonia_1_a
+- utter_pneumonia_1_b
+- utter_pneumonia_advice
+- utter_coronavirus_advice
+- action_save_conversation
+
+# - utter_bronchial_asthma_1_a
+# - utter_bronchial_asthma_1_b
+# - utter_bronchial_asthma_advice
+# - utter_arthritis_1_a
+# - utter_arthritis_1_b
+# - utter_arthritis_advice

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HealFavor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'new.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'bot.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    {% include 'includes/_navbar.html' %}
+
+    <div class="container">
+        {% block body %}{% endblock %}
+
+    </div>
+
+    <script src="{{ url_for('static', filename = 'jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename = 'bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename = 'anime.min.js') }}"></script>
+    <script src="{{ url_for('static', filename = 'new.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="jumbotron text-center" class="blue_div">
+<p class="lead">Upload Here</p>
+            
+    <div class="form-group">
+
+        <form action="{{url_for('upload')}}" method=post enctype=multipart/form-data>
+            <br>
+            <input id="inp" type=file name=file>
+            <br><br>
+            <input type=submit value=Upload>
+        </form>
+
+        <br><br><br>
+        <p class="lead">Uploaded Data:</p>
+        {% for item in data %}
+
+        <p>{{item}}</p>
+
+        {% endfor %}
+
+    </div>
+</div>
+
+
+{% endblock %}
+
+

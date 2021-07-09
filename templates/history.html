@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+
+<center>
+	<!-- <img id="logo" src="{{ url_for('static', filename = 'imgs/logo.png')}}"> -->
+	<br><br>
+	<div id="about" class="blue_div">
+		History
+	</div> 
+
+    <div>
+		<h3 id="chat_texts" style= "white-space: pre-line; text-align: left">{{session['chat']}}</h3>
+    </div>
+    <script>
+       str =  document.getElementById("chat_texts").innerHTML;
+      
+       str.replace('.', '.\n');
+       document.getElementById("chat_texts").innerHTML= str;
+   
+    </script>
+
+</center>
+
+
+
+
+<div id="webchat"/>
+<script src="{{ url_for('static', filename = 'webchat-latest.js')}}">
+// Or you can replace latest with a specific version
+</script>
+
+{% endblock %}
+
+
