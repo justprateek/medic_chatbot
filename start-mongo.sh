@@ -1,0 +1,1 @@
+rasa run -m models --endpoints endpoints.yml

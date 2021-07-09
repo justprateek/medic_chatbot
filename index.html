@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HealFavor</title>
+	<link rel="stylesheet" type="text/css" href="css/bot.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<center>
+	<h1>Welcome to HealFavor</h1>
+	<img id="logo" src="imgs/logo.png">
+	<br><br>
+	<div id="about">
+		The Prototype Model of the Contextual Agent-Based Medical AI Bot
+	</div> 
+
+
+<div id="bottom">
+
+	<div id="nits">
+		<img id="nits" src="imgs/nits.png">
+	</div>
+	<div id="ack">
+		National Institute of Technology, Silchar
+		<br>
+		&copy; Copyright Centre for Natural Language Processing
+		<br>
+		<div id="power">
+			Powered by RASA
+		</div>
+		
+	</div>
+
+	
+</div>
+
+	
+
+
+</center>
+
+
+
+
+<div id="webchat"/>
+<script src="webchat-latest.js">
+// Or you can replace latest with a specific version
+</script>
+
+
+
+<!-- <script>
+  sessionStorage.clear()
+  WebChat.default.init({
+    selector: "#webchat",
+    initPayload: "/greet_0_1",
+    interval: 100, // 1000 ms between each message
+    customData: {"language": "en"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+    socketUrl: "http://192.168.132.168:5005",
+    profileAvatar: "imgs/logo.png",
+    socketPath: "/socket.io/",
+    title: "HealFavor",
+    // subtitle: "type to get a response",
+    params: {
+      images: {
+        dims: {
+          width: 300,
+          height: 200,
+        }
+      },
+      storage: "session"
+    }
+  })
+  // WebChat.show()
+</script> -->
+
+<script>!(function () {
+  let e = document.createElement("script"),
+    t = document.head || document.getElementsByTagName("head")[0];
+  (e.src =
+    "https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.js"),
+    // Replace 1.x.x with the version that you want
+    (e.async = !0),
+    (e.onload = () => {
+      window.WebChat.default(
+        {
+          initPayload: '/greet',
+          customData: { language: "en" },
+          socketUrl: "http://localhost:5005",
+          // add other props here
+        },
+        null
+      );
+    }),
+    t.insertBefore(e, t.firstChild);
+})();
+</script>
+
+</body>
+</html>
+
+
+
